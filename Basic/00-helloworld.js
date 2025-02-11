@@ -26,6 +26,13 @@ console.log('¡Hola, JavaScript!')
 console.log(`¡Hola, JavaScript!`)
 */
 
+/* 
+Un método alternativo para recuperar un número de una cadena es 
+con el operador +
+*/
+console.log(+"1.5" + +"1.5") 
+
+//Operadores
 console.log("5")
 console.log(5)
 console.log(5 + 2)

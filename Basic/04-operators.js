@@ -36,7 +36,9 @@ myVariable %= 2 // Módulo con asignación
 myVariable **= 2 // Exponente con asignación
 
 // Operadores de comparación
-
+/**El == es igualdad x valor
+ * Y === es igualdad por tipo y valor
+ */
 console.log(a > b) // Mayor que
 console.log(a < b) // Menor que
 console.log(a >= b) // Mayor o igual que

@@ -18,11 +18,13 @@ let height = 1.77 // Decimal
 let isTeacher = true
 let isStudent = false
 
-// Undefined
+// Undefined 
+/** Una propiedad de alto nivel cuyo valor no está definido. */
 let undefinedValue
 console.log(undefinedValue)
 
 // Null
+/**na palabra clave especial que denota un valor nulo. */
 let nullValue = null
 
 // Symbol
