@@ -157,3 +157,5 @@ console.log(`Estamos en el mes de ${mensaje}`)
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
  let dia = new Date(2025,mes2,0)
  console.log(dia)
+
+ 
