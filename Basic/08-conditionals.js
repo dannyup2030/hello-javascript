@@ -36,6 +36,10 @@ if (age == 37) {
 const message = age == 37 ? "La edad es 37" : "La edad no es 37"
 console.log(message)
 
+
+let edad = 18
+const mayor_edad = edad >= 18 ? "Es mayor de edad " : "No es mayor de edad "
+console.log(mayor_edad)
 // switch
 
 let day = 3
