@@ -31,9 +31,26 @@ console.log(newset)
 
 console.log(newset.size)
 // 7. Crea un mapa que asocie el número del mes a su nombre
-
+let newmap = new Map();
+newmap = new Map([
+    [1,"Enero"],
+    [2,"Febrero"],
+    [3,"Marzo"],
+    [4,"Abril"],
+    [5,"danny"]
+])
+console.log(newmap)
 // 8. Comprueba si el mes número 5 existe en el map e imprime su valor
-
+console.log(newmap.has(5))
 // 9. Añade al mapa una clave con un array que almacene los meses de verano
-
+newmap.set("6",array=["pimavera","verano","invierno","otoño"])
+console.log(newmap)
 // 10. Crea un Array, transfórmalo a un Set y almacénalo en un Map
+let newarray = ["ciberseguridad","programacion","tecnologia","software"]
+
+let set_new = new Set(newarray)
+console.log(set_new)
+
+newmap.set("7" , set_new)
+console.log(newmap)
+
