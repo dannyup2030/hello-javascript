@@ -1,0 +1,1 @@
+let figura = prompt("hola")
