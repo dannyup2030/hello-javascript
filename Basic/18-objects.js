@@ -5,7 +5,7 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=14229
 
 // Objetos
 
-// Sintaxis
+// Sintaxiss
 
 let person = {
     name: "Brais",
