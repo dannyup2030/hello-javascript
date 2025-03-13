@@ -17,3 +17,12 @@ let persona = {
 console.log(persona.saludo())
 console.log(persona.job.work("daniel",2000))
 console.log(persona.name)
+
+let  {name:nombre , job:{exp:experiencia}} = persona
+console.log(nombre)
+console.log(experiencia)
+
+let persona2 = {...persona , vehiculo: "carro"}
+console.log(persona2)
+persona2.job.vehiculo = "moto"
+console.log(persona)

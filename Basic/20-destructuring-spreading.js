@@ -14,6 +14,7 @@ let person = {
 let myValue = myArray[1]
 console.log(myValue)
 
+
 let myName = person.name
 console.log(myName)
 
